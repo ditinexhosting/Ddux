@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: [Ddux - The next generation React State Manager]
+description: [Manage your state with Just One Line. Easier, Faster & Efficient way of managing state and Global Variables. Avoid the burden to pass props between multiple grand children.]
+show_downloads: ["true"]
+#google_analytics: [Your Google Analytics tracking ID]
