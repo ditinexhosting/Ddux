@@ -4,5 +4,6 @@
 [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/ddux.svg)](https://bundlephobia.com/result?p=ddux)
 [![License](https://img.shields.io/:license-MIT-blue.svg)](./LICENSE)
 
+
 # Ddux
 The minified react state manager.
