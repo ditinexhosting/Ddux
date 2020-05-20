@@ -1,6 +1,6 @@
-<h1 align="center"> Project Title - Readme.md HTML Template </h1>
+<h1 align="center"> Ddux </h1>
 
-<p align="center"> Intro - Boilerplate for Readme.md on Github </p>
+<p align="center"> The next react state manager </p>
 
 <hr/>
 
