@@ -1,7 +1,7 @@
 {
   "name": "ddux",
   "version": "1.0.0",
-  "description": "The next State Manager",
+  "description": "The minified State Manager",
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack"
