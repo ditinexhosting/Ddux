@@ -109,7 +109,7 @@ Ddux.callMethod('changeParent',100)
 ```
 
 ## Demo
-A full [Ddux Demo](https://docs.npmjs.com/getting-started/installing-npm-packages-locally) project is available to test and implement all the features of Ddux. 
+A full [Ddux Demo](https://github.com/ditinexhosting/Ddux-Demo-Project) project is available to test and implement all the features of Ddux. 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
