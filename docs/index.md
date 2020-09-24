@@ -93,6 +93,11 @@ Ddux.update('globalValue',10,false)
 ```js
 Ddux.setMethod('methodName',methodValue)
 ```
+- unset a method in parent component while unmounting device
+```js
+Ddux.unsetMethod('methodName')
+```
+
 Please note that the method in the parent component should be bind with this. Refer the below snippet :
 ```js
   componentDidMount(){
@@ -103,13 +108,19 @@ Please note that the method in the parent component should be bind with this. Re
       this.setState({parentValue: value})
   }
 ```
+- Make sure to unset the method on unmount
+```js
+  componentWillUnmount(){
+    Ddux.unsetMethod('changeParent')
+  }
+```
 - Call the globally accessible method from inside grand-child component or vice-versa
 ```js
 Ddux.callMethod('changeParent',100)
 ```
 
 ## Demo
-A full [Ddux Demo](https://github.com/ditinexhosting/Ddux-Demo-Project) project is available to test and implement all the features of Ddux. 
+A full Demo project is available in example folder to test and implement all the features of Ddux. 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
